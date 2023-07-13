@@ -30,7 +30,7 @@ const Form: React.FC<FormProps> = (props) => {
       </p></div>
 
       <div className=" text-slate-700 rounded-md mb-1 relative left-24  ">
-            <select id="language" class="relative left-44 bg-slate-300">
+            <select id="language" className="relative left-44 bg-slate-300">
               <option value="en">English</option>
               <option value="no">Norwegian</option>
               <option value="ru">Russian</option>
