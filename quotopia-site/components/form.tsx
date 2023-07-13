@@ -29,14 +29,6 @@ const Form: React.FC<FormProps> = (props) => {
         for you!
       </p></div>
 
-      <div className=" text-slate-700 rounded-md mb-1 relative left-24  ">
-            <select id="language" className="relative left-44 bg-slate-300">
-              <option value="en">English</option>
-              <option value="no">Norwegian</option>
-              <option value="ru">Russian</option>
-              <option value="pa">Pashto</option>
-            </select>
-          </div>
       <input
         className="p-2 w-full rounded-md  focus:outline-teal-500 focus:outline text-slate-700 "
         type="text"
