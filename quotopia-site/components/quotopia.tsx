@@ -69,7 +69,7 @@ const Quotopia: React.FC = () => {
       <div className="max-w-md m-auto p-2">
         <div className="bg-slate-800 p-6 rounded-md text-white">
           <div className="text-center my-6">
-            <Image src={logo} width={50} height={50} className="m-auto" />
+            <Image src ={logo} width={50} alt= "logo" height={50} className="m-auto" />
             <h1 className={gradientTextStyle + " text-3xl font-bold"}>
               Quotopia!
             </h1>
